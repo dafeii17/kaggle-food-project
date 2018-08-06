@@ -9,8 +9,8 @@
 
 >2. LinearSVC(C=1): 0.7848
 
->Logistic Regression (penalty = 'l2', C=10): 0.78506
+>3. Logistic Regression (penalty = 'l2', C=10): 0.78506
 
->model_correction (retrain cuisine classes with high correlation): 0.78551
+>4. model_correction (retrain cuisine classes with high correlation): 0.78551
 
->logistic regression twice (first logistic regression probability as input for 2nd logistic regression): 0.78795
+>5. logistic regression twice (first logistic regression probability as input for 2nd logistic regression): 0.78795
