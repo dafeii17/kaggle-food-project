@@ -5,9 +5,9 @@
 
 ### Test-Train split: 0.25
 ### Classification models and accuracies:
->Feedforward Neural Network in pytorch: 0.764
+>1. Feedforward Neural Network in pytorch: 0.764
 
->LinearSVC(C=1): 0.7848
+>2. LinearSVC(C=1): 0.7848
 
 >Logistic Regression (penalty = 'l2', C=10): 0.78506
 
