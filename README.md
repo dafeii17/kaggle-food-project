@@ -5,12 +5,12 @@
 
 ### Test-Train split: 0.25
 ### Classification models and accuracies:
->Logistic Regression (penalty = 'l2', C=10)  (0.78506)
+>Feedforward Neural Network in pytorch: 0.764
 
->LinearSVC(C=1) (0.7848)
+>LinearSVC(C=1): 0.7848
 
->Feedforward Neural Network in pytorch (0.764)
+>Logistic Regression (penalty = 'l2', C=10): 0.78506
 
->0.78551 for model_correction (retrain cuisine classes with high correlation)
+>model_correction (retrain cuisine classes with high correlation): 0.78551
 
->0.78795 with logistic regression twice (first logistic regression probability as input for 2nd logistic regression)
+>logistic regression twice (first logistic regression probability as input for 2nd logistic regression): 0.78795
