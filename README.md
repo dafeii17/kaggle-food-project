@@ -6,5 +6,5 @@ This dataset contains around 50,000 rows of ingredients. I am interested to see 
 1.	Extracted ingredient text feature with tf-idf tokenizer and analyzed the correlation among various cuisines based on the mean feature values of each cuisine.
 2.	Analyzed the most discriminative ingredients of each cuisine based on Chi2 statistics. 
 ### Machine Learning models:
-To predict the cuisine type based on list of ingredients, the best accuracies are obtained with feed-forward neural network in PyTorch and logistic regressor, and SVM RBF kernel in sklearn.
+To predict the cuisine type based on list of ingredients, the best accuracies are obtained with feed-forward neural network in PyTorch and SVM RBF kernel in sklearn.
 After analyzing the correlations between different cuisines, the accuracies could be further improved by retraining cuisine classes with high correlations. 
